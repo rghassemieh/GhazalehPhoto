@@ -1,0 +1,123 @@
+body {
+	margin-top: 10px;
+	background-color: black;
+}
+
+p {color: white;
+  font-size: 22px;
+}
+
+h2 {font-family: 'Dancing Script', cursive;
+font-family: 'Square Peg', cursive;
+  color: #b0adac;
+  }
+
+h3 {
+  font-size: 26px;
+  color: white;
+}
+
+h1 {color: #787775}
+
+h1 {color: #b0aeae}
+
+h4 {
+font-family: 'Square Peg', cursive;
+color: white}
+
+.container {
+	/*border: red solid 1px;*/
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #787775;
+    color:black;
+}
+
+.form-group {
+	color: white;
+}
+
+.alert-custom {
+  background-color:#b0aeae;
+  color:#080707;
+
+}
+
+.jumbotron {
+    background-color: #3c402f;
+}
+
+.row {
+	margin: 5px;
+}
+
+.col-sm-4, .col-sm-8, .col-sm-2, .col-sm-12 {
+	/*border: black dashed 1px;*/
+}
+
+.title-text {
+	/*text-align: center;*/
+	font-family: 'Livvic', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.threes img {
+	max-width: 100%;
+  max-height: 100%;
+	object-fit: cover;
+}
+
+a {
+	min-width: 48px;
+	min-height: 48px;
+}
+.logo {
+    max-width: 70%;
+	max-height: 50%;
+}
+
+
+.nav {
+	background-color: black;
+	padding-left: 15px;
+}
+
+.nav a {
+	color: black;
+}
+
+.nav a:hover {
+	background-color: grey;
+	color: lightseagreen;
+	text-decoration: none;
+}
+}
+/* If the screen size is 850px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 850px) {
+  h1 {
+    font-size: 30px;
+  }
+  /* add here any other tags you want to do the same for */
+}
+
+/* If the screen size is 850px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 20px;
+  }
+  /* add here any other tags you want to do the same for */
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  /* add here any other tags you want to do the same for */
+}
